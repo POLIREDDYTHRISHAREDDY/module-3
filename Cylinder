@@ -1,0 +1,20 @@
+class Cylinder {
+    private double radius;
+    private double height;
+
+    // Setter for radius
+    void setRadius(double r) {
+        radius = r;
+    }
+
+    // Getter for radius
+    double getRadius() {
+        return radius;
+    }
+
+    // Setter for height
+    void setHeight(double h) {
+        height = h;
+    }
+
+    // Gette
