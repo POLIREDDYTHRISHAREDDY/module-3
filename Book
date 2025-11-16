@@ -1,0 +1,30 @@
+class Book {
+    String title;
+    String author;
+    double price;
+
+    // Default constructor
+    Book() {
+        title = "Unknown";
+        author = "Unknown";
+        price = 0.0;
+        System.out.println("Default Constructor:");
+        System.out.println("Title: " + title + ", Author: " + author + ", Price: " + price);
+    }
+
+    // Constructor with title and author only
+    Book(String title, String author) {
+        this.title = title;
+        this.author = author;
+        this.price = 0.0;
+        System.out.println("\nConstructor (Title + Author):");
+        System.out.println("Title: " + this.title + ", Author: " + this.author + ", Price: " + this.price);
+    }
+
+    // Constructor with all fields
+    Book(String title, String author, double price) {
+        this.title = title;
+        this.author = author;
+        this.price = price;
+        System.out.println("\nConstructor (All Fields):");
+        System.out.println("Title: " + t
