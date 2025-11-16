@@ -1,0 +1,22 @@
+class Employee {
+    private int salary;
+    private String name;
+
+    // Constructor
+    Employee(int salary, String name) {
+        this.salary = salary;
+        this.name = name;
+    }
+
+    // Method to return salary
+    int getSalary() {
+        return salary;
+    }
+
+    // Method to return name
+    String getName() {
+        return name;
+    }
+
+    // Method to change the name
+    void setN
